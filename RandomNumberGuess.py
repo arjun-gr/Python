@@ -4,7 +4,7 @@ from click import prompt
 randNum = random.randint(1,5)
 tries = 0
 while True:
-    num = prompt("Enter number")
+    num = prompt("Enter number: ")
     if(int(num) == randNum):
         print("You won")
         break
